@@ -1,43 +1,105 @@
-/*seletor de tag*/
-p{
-    color:blueviolet;
-    font-family: Ebrima;
-    font-size: 20px;
-}
-
-/*seletor de classe*/
-.imortal{
-    font-size: 50px;
-}
-/*seletor de id*/
-#gremio {
-    color:yellow;
-    background: black;
-}
-
-body {
+body{
     background: beige;
+}
 
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Calibri;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Calibri;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: Calibri;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    font-family: Calibri;
+}
+
+
+
+ul{
+    text-align: center;
+    font-size: 23px;
+    font-family: Calibri;
+}
+
+li{
+    text-align: left;
+    font-size: 23px;
+    font-family: Calibri;
+
+    
+}
+
+a:hover{
+    text-align: center;
+    font-size: 25px;
+    font-family: Calibri;
+    color: blueviolet;
+}
+
+img{
+    text-align: center;
 }
 
 th{
     background: black;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-tr:nth-child(even) {
-    background-color: aliceblue;
+tr:nth-child(even){
+    background-color: cadetblue;
     color: black;
 }
 
-tr:nth-child(odd) {
-    background-color: blueviolet;
-    color: white;
+tr:nth-child(odd){
+    background-color: cornflowerblue;
+    color: black;
 }
 
-a:hover {
-    color: blueviolet;
-    background: beige;
 
+
+
+
+
+.tabela-centralizada{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: Calibri;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.lista-centralizada{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.lista-descentralizada{
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagem-centralizada{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.background-diferente{
+    background: aliceblue;
 }
